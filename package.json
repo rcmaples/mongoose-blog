@@ -1,0 +1,38 @@
+{
+  "name": "mongoose-blog",
+  "version": "0.1.0",
+  "description": "Blog API with mongoose/MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcmaples/mongoose-blog.git"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "mocha",
+    "chai"
+  ],
+  "author": "rcmaples",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcmaples/mongoose-blog/issues"
+  },
+  "homepage": "https://github.com/rcmaples/mongoose-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.1"
+  }
+}
